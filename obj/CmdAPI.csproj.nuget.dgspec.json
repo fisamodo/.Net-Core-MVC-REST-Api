@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj": {}
+    "C:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj": {
+    "C:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj",
         "projectName": "CmdAPI",
-        "projectPath": "c:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj",
+        "projectPath": "C:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\CmdAPI.csproj",
         "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\obj\\",
+        "outputPath": "C:\\Users\\Korisnik\\Desktop\\RESTAPI\\CmdAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -48,6 +48,11 @@
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
