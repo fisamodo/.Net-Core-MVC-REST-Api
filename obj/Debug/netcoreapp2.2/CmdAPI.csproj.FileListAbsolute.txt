@@ -1,0 +1,16 @@
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.csprojAssemblyReference.cache
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.RazorAssemblyInfo.cache
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.RazorAssemblyInfo.cs
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\CmdAPI.deps.json
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\CmdAPI.runtimeconfig.json
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\CmdAPI.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\CmdAPI.dll
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\bin\Debug\netcoreapp2.2\CmdAPI.pdb
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.dll
+C:\Users\Korisnik\Desktop\RESTAPI\CmdAPI\obj\Debug\netcoreapp2.2\CmdAPI.pdb
