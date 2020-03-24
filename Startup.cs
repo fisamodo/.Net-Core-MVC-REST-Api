@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using CmdApi.Models;
 
 namespace CmdApi
 {
@@ -20,8 +22,9 @@ namespace CmdApi
        
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<CommandContext>
+            (opt => opt.UseSqlServer(Configuration["Data:CommandAPIConnection:ConnectionString"])); //appsettings.json path
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
