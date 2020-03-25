@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
+
+
 namespace CmdApi.Models
 {
     public class CommandContext: DbContext
@@ -9,6 +11,6 @@ namespace CmdApi.Models
 
         }
         public DbSet<Command> CommandItems{get; set;}
-        
+
     } 
 }
