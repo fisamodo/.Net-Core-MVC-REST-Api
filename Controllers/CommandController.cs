@@ -18,12 +18,27 @@ namespace CmdApi.Controllers
         {
             return _context.CommandItems;
         }
-        /*
-        [HttpGet]
-        public ActionResult<IEnumerable<string>>GetString()
+       
+        //GET:     api/commands/customId
+        [HttpGet("{Id}")]
+        public ActionResult<Command> GetCommandItem(int id)
         {
-            return new string[] {"this","is","hard","coded"};
+            var CommandItem = _context.CommandItems.Find(id);
+
+            if(CommandItem==null)
+            {
+                return NotFound();
+            }
+
+            return CommandItem;
         }
-        */    
+
+        //POST:  /api/commands
+
+        [HttpPost]
+        public ActionResult<Command> PostCommandItem(Command command)
+        {
+            
+        }
     }
 }
