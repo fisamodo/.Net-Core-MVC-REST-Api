@@ -47,7 +47,7 @@ namespace CmdApi.Controllers
             return CreatedAtAction("GetCommandItem", new Command{Id=command.Id}, command);
         }
 
-        //PUT:   /api/commands/n
+        //PUT:   /api/commands/customId
 
         [HttpPut("{Id}")]
         public ActionResult PutCommandItem(int id, Command command)
@@ -61,5 +61,24 @@ namespace CmdApi.Controllers
 
             return NoContent();
         }
+        //DELETE:   api/commands/customId
+
+        [HttpDelete("{Id}")]
+        public ActionResult<Command> DeleteCommandItem(int id)
+        {
+            var CommandItem = _context.CommandItems.Find(id);
+
+            if(CommandItem==null)
+            {
+                return NotFound();
+            }
+
+            _context.CommandItems.Remove(CommandItem);
+            _context.SaveChanges();
+
+            return CommandItem;
+        }
+
+        
     }
 }
